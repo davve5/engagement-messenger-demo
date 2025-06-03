@@ -27,7 +27,7 @@ export default function RootLayout({
       >
       <Script strategy="beforeInteractive"  src="https://ven03799.service-now.com/scripts/sn_csm_ec.js?v=5.6"/>
       {children}
-      <Script
+      <Script id="em"
   strategy="afterInteractive"
         >{`
         SN_CSM_EC.init({
