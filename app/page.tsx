@@ -16,9 +16,11 @@ export default function Page() {
   return (
     <>
     <Script strategy="beforeInteractive"  src="https://ven03799.service-now.com/scripts/sn_csm_ec.js?v=5.6"/>
-      <Script id="em"
-  strategy="afterInteractive"
-        >{`
+      <Script
+        id="em"
+        strategy="afterInteractive"
+      >
+        {`
         SN_CSM_EC.init({
           moduleID: "https://ven03799.service-now.com/#9c293dcf9731a6108534b286f053af4e",
           loadFeature: SN_CSM_EC.loadEMFeature()
